@@ -1,10 +1,10 @@
-#include 'main.h'
+#include "main.h"
 /**
  * print_to_98 - prints all natural numbers from n to 98
- * @n: the initial value
+ * @c: the initial value
  * Return: 0
  */
-void print_to_98(int n)
+void print_to_98(int c)
 {
 	if (c > 0 || c == 0)
 	{
