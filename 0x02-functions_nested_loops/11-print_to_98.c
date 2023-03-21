@@ -13,6 +13,6 @@ void print_to_98(int c)
 	else
 	{
 		c *= -1;
-		_putchar(c * 10 + '0);
+		_putchar(c * 10 + '0');
 	}
 }
