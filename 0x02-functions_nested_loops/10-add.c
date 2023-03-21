@@ -8,6 +8,5 @@
 int add(int a, int b)
 {
 	int sum  = a + b;
-	_putchar(sum);
-	return (0);
+	return (sum);
 }
