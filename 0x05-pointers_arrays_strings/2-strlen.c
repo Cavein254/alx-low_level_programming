@@ -16,5 +16,5 @@ int _strlen(char *s)
 		length++;
 	}
 
-	return  (count-3);
+	return  (count - 3);
 }
