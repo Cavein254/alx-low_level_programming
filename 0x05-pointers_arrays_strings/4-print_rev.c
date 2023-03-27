@@ -15,7 +15,7 @@ void print_rev(char *s)
 	{
 		counter++;
 	}
-	for (j = counter - 3; j >= 0; j--)
+	for (j = counter; j > 0; j--)
 	{
 		_putchar(pstr[j]);
 	}
