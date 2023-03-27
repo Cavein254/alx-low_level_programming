@@ -8,29 +8,27 @@
  */
 void puts_half(char *str)
 {
-	char *sptr = str;
-	int i, j, k;
-	int counter = 0;
+    int c, a;
+	char l;
 
-	for (i = 0; sptr[i] != '\0'; i++)
+	for (c = 0; str[c] != 0; c++)
 	{
-		counter++;
 	}
-	if (counter % 2 == 0)
+	if (c % 2 == 0)
 	{
-		for (j = (counter / 2); j <= counter; j++)
+		for ((a = c / 2); str[a] != 0; a++)
 		{
-			_putchar(sptr[j]);
+			l = str[a];
+			_putchar(l);
 		}
-		_putchar('\n');
 	}
 	else
-	{
-		for (k = ((counter + 1) / 2); k <= counter; k++)
-		{
-			_putchar(sptr[k]);
-		}
-		_putchar('\n');
-	}
-	printf("counter %d", counter);
+        {
+                for ((a = (c - 1) / 2); str[a] != 0; a++)
+                {
+                        l = str[a];
+                        _putchar(l);
+                }
+        }
+	_putchar('\n');
 }
