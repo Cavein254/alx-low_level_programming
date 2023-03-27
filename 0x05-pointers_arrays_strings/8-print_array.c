@@ -9,12 +9,12 @@
  */
 void print_array(int *a, int n)
 {
-    int *arrp = a;
-    int i;
+	int *arrp = a;
+	int i;
 
-    for (i = 0; i < n; i++)
-    {
-        printf("%d, ", arrp[i]);
-    }
-    printf("\n");
+	for (i = 0; i < n; i++)
+	{
+		printf("%d, ", arrp[i]);
+	}
+	printf("\n");
 }
