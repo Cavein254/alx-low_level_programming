@@ -8,10 +8,18 @@
  */
 int main(void)
 {
-    char s[10] = "My School";
+    int f, r_s;
+	char character;
 
-    printf("%s\n", s);
-    rev_string(s);
-    printf("%s\n", s);
-    return (0);
+	for (f = '\0'; s[f] != 0; f++)
+	{
+	}
+	r_s = 0;
+	for (f = f - 1; r_s < f; r_s++)
+	{
+		character = s[f];
+		s[f] = s[r_s];
+		s[r_s] = character;
+		f--;
+	}
 }

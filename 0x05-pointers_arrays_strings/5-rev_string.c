@@ -1,24 +1,24 @@
 #include "main.h"
 /**
- * _rev_string - determines the length of the string
+ * rev_string - determines the length of the string
  * @s: variable containing the string
  *
- * Return: length of the string
+ * Return: This function does not return
  */
 void rev_string(char *s)
 {
-    char *pstr = s;
-	int counter = 0;
-	int i;
-	int j;
+    int f, r_s;
+	char character;
 
-	for (i = 0; pstr[i] != '\0'; i++)
+	for (f = '\0'; s[f] != 0; f++)
 	{
-		counter++;
 	}
-	for (j = counter; j > 0; j--)
+	r_s = 0;
+	for (f = f - 1; r_s < f; r_s++)
 	{
-		_putchar(pstr[j]);
+		character = s[f];
+		s[f] = s[r_s];
+		s[r_s] = character;
+		f--;
 	}
-	_putchar('\n');
 }
