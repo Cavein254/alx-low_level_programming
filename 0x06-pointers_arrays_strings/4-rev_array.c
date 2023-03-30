@@ -2,7 +2,7 @@
 /**
  * reverse_array - reverses the content of an array of integers
  * @a: The first string
- * @b: The second string
+ * @n: The second string
  *
  * Return: this fn does not return
  */
