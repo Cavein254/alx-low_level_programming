@@ -1,4 +1,4 @@
-#include 'main.h'
+#include "main.h"
 /**
  * _strncpy - similar to strncpy
  * @dest:The first string
