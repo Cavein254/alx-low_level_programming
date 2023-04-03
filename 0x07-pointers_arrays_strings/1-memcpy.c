@@ -6,7 +6,7 @@
  * @src : the area in memory where the memory is
  * @n : the number of bytes
  *
- * Return : a poxnter to dest
+ * Return:dest pointer
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
