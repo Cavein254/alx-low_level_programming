@@ -23,7 +23,8 @@ void print_diagsums(int *a, int size)
 
 	for (idx = 0; idx < size; idx++)
 	{
-		y -= size;
+		y += a[idx];
+		a -= size;
 	}
 
 	printf("%d, %d\n", x, y);
