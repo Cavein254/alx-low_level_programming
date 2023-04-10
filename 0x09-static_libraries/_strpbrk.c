@@ -1,10 +1,10 @@
 #include <stdio.h>
-/** _strspn - set the memory two strings
+/** _strpbrk - set the memory two strings
  * @s : origin string
  * @accept : additional chars
  * Return: 0 on success
 */
-unsigned int _strspn(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
     return (0);
 }
