@@ -55,6 +55,6 @@ char *str_concat(char *s1, char *s2)
 		x++;
 		y++;
 	}
-	comb[i] = '\0';
+	comb[x] = '\0';
 	return (comb);
 }
