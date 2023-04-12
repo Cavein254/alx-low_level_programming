@@ -11,19 +11,29 @@ char *_strdup(char *str)
 {
 	char *dest;
 	unsigned int x;
+	unsigned int y;
 
-	x = _strlen(str);
-	dest = (char *) malloc(x *sizeof(char));
+	x = 0;
+	if (str == NULL)
+	{
+		return (NULL);
+	}
+	while (str[x] != '\0')
+	{
+		x++;
+	}
 
-	if (str == 0)
+	dest = malloc(sizeof(char*(x + 1)));
+
+	if (dest == NULL)
 	{
 		return (NULL);
 	}
 
-	if (dest == 0)
+	for (y = 0; str[y] != '\0'; y++)
 	{
-		return (NULL);
+		dest[y] = str[y];
 	}
-	_strcpy(dest);
 	return (dest);
+
 }
