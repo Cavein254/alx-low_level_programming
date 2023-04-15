@@ -5,9 +5,8 @@
  * @argv: Array of arguments
  * Return: returns 0 for success
  */
-int main(int argc, char *argv)
+int main(int argc__attribute__((unused)), char *argv)
 {
-	if (argc > 0)
-		printf("%s\n", *argv);
+	printf("%s\n", *argv);
 	return (0);
 }
