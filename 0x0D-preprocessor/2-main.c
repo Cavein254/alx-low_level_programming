@@ -3,10 +3,10 @@
  * main - prints the name of the program
  * argc: number of arguments
  * argv: array of arguments
- * Returns: 0 on success
+ * Return: 0 on success
  */
 int main(void)
 {
-    printf("%s\n", __FILE__);
-    return (0);
+	printf("%s\n", __FILE__);
+	return (0);
 }
