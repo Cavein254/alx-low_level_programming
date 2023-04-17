@@ -2,8 +2,8 @@
 
 #include "dog.h"
 /**
- * print_dog- print properties of a dog
- * d : struct of type dog
+ * print_dog - print properties of a dog
+ * @d : struct of type dog
  * Return: This function does not return
  */
 void print_dog(struct dog *d)
