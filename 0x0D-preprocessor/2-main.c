@@ -5,8 +5,8 @@
  * argv: array of arguments
  * Returns: 0 on success
  */
-int main(int argc, char **argv)
+int main(void)
 {
-    printf("%s\n", argv[0]);
+    printf("%s\n", __FILE__);
     return (0);
 }
