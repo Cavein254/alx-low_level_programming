@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include "lists.h"
 /**
- * listint_len - a function that returns length of a linked list
+ * print_listint - a function that returns length of a linked list
  * @h: the first part of a linked list
  * Return: the number of nodes
  */
-size_t listint_len(const listint_t *h)
+size_t print_listint(const listint_t *h)
 {
 	size_t n;
 
