@@ -1,7 +1,7 @@
 #include "header.h"
 /**
  * _puts_recursion - cycles through a sentence and prints characters
- * *s: pointer to the value
+ *@ *s: pointer to the value
  */
 void _puts_recursion(char *s)
 {
