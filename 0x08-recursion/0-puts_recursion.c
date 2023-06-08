@@ -1,4 +1,4 @@
-#include "header.h"
+#include "main.h"
 /**
  * _puts_recursion - cycles through a sentence and prints characters
  *@ *s: pointer to the value
@@ -11,5 +11,5 @@ void _puts_recursion(char *s)
 		return;
 	}
 	_putchar(*s);
-	_puts_recursion(s+1);
+	_puts_recursion(s + 1);
 }
