@@ -21,4 +21,6 @@ void _puts_recursion(char *s)
 	pn = &s[i];
 
 	_puts_recursion(pn);
+
+	_putchar('\0');
 }
