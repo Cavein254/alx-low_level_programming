@@ -9,15 +9,21 @@
  * Return: size of the node
  */
 size_t print_dlistint(const dlistint_t *h) {
-  size_t counter = 0;
+  int count;
+
+  count = 0;
 
   if (h == NULL)
-    return counter;
+    return (count);
+
+  while (h->prev != NULL)
+    h = h->prev;
 
   while (h != NULL) {
-    counter++;
+    printf("%d\n", h->n);
+    count++;
     h = h->next;
   }
 
-  return counter;
+  return (count);
 }
